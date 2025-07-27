@@ -10,13 +10,12 @@ body {
 /*Resets the page default margin and padding for the entire html file, allowing more control when styling specific elements.*/
     margin: 0; 
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
     background-color: #ffffff;
 }
 
 /*===Shared Button style===*/
 .btn-nav{
-    background-color: rgb(45, 0, 248);
+    background-color: #4e47ff;
     margin: 50px 150px 0 909px;
     padding: 20px 40px;
     border-radius: 10px;
@@ -47,7 +46,7 @@ body {
     margin: 50px 0 0 150px;
     font-weight: bold;
     opacity: 100%;
-    color: rgb(45, 0, 248);
+    color: #4e47ff;
 }
 
 /*===HERO SECTION===*/
@@ -57,7 +56,7 @@ body {
 }
 
 .btn-hero{
-    background-color: rgb(45, 0, 248);
+    background-color:#4e47ff;
     text-align: center;
     padding: 20px 40px;
     border-radius: 10px;
@@ -77,6 +76,66 @@ body {
 
 .see-action{
     display:flex;
-    margin-top: 50px;
+    margin: 115px 159px 128px 141px;
 }
 
+.btn-launch{
+    background-color: #4e47ff;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  
+}
+
+.see-action-text{
+    max-width: 517px;
+    max-height: 203px;
+}
+
+.action-h2{
+    font-size: 42px;
+    font-weight: bold;
+    max-width: 517px;
+    max-height: 49px;
+}
+
+.action-p{
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 517px;
+    max-height: 49px;
+    padding-bottom: 25px;
+  }
+.see-action-img{
+    margin-left: 732px;
+    border-radius: 48px;
+    max-width: 405px;
+    max-height: 328px;
+}
+
+/* ==== STATS SECTION ==== */
+
+.stats{
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 auto 120px auto; /* centers horizontally and adds bottom space */
+}
+
+.h2-stats{
+  font-size: 42px;
+  color: black;
+  opacity: 1;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.div-stats{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 301px 0 283px;
+}
