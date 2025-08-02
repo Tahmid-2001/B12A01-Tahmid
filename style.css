@@ -39,6 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 150px 0 150px;
 }
 
 .nav-logo {
@@ -74,9 +75,10 @@ body {
 
 /*===SEE IT IN ACTION and Webflow===*/
 
-.see-action{
-    display:flex;
-    margin: 115px 159px 128px 141px;
+.see-action {
+  display: flex;
+  align-items: center;
+  margin: 115px 159px 128px 150px;
 }
 
 .btn-launch{
@@ -93,8 +95,7 @@ body {
 }
 
 .see-action-text{
-    max-width: 517px;
-    max-height: 203px;
+  margin: 115px 159px 128px 141px;
 }
 
 .action-h2{
@@ -111,31 +112,138 @@ body {
     max-height: 49px;
     padding-bottom: 25px;
   }
-.see-action-img{
-    margin-left: 732px;
-    border-radius: 48px;
-    max-width: 405px;
-    max-height: 328px;
+.see-action-img {
+  margin-left: 60px;
+  border-radius: 48px;
+  max-width: 405px;
+  max-height: 328px;
 }
 
 /* ==== STATS SECTION ==== */
 
 .stats{
   text-align: center;
+  padding: 50px 80px 50px 0px;
   justify-content: space-between;
-  margin: 0 auto 120px auto; /* centers horizontally and adds bottom space */
+  margin: 0 auto 137px auto; /* centers horizontally and adds bottom space */
+  background-color: rgba(78, 71, 255, 12%);
+  width: 1140px;
+  height: 306px;
+  border-radius: 24px;
+
 }
 
 .h2-stats{
-  font-size: 42px;
+  font-size: 38px;
   color: black;
-  opacity: 1;
   font-weight: bold;
   margin-top: 50px;
 }
 
+
 .div-stats{
+  text-align: center;
   display: flex;
   justify-content: space-between;
-  margin: 0 301px 0 283px;
+  gap: 158px;
+  max-width: 806px;
+  max-height: 206px;
+  margin: 0 auto;
+
 }
+
+.div-stats strong{
+  font-size: 80px;
+  color: #4e47ff
+}
+
+.div-stats p{
+  font-size: 20px;
+}
+
+/* ==== What our users say (Testimony)==== */
+
+.Testimony{
+  text-align: center;
+  margin: 0 auto 137px 150px;
+  
+}
+
+.test_h2{
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.test_cards{
+
+  display:flex;
+  flex-wrap: warp;
+  justify-content: space-around;
+  gap: 20px;
+
+}
+
+.card{
+  text-align: left;
+  flex-direction: column;
+  padding: 24px;
+  align-items: flex-start;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* soft gray shadow */
+  
+}
+
+
+.card-h2{
+  display: block;
+  
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer div strong p{
+  color: #757575;
+  opacity: 100%;
+}
+
+.reviewer div  p{
+  color: #B3B3B3;
+  opacity: 100%;
+}
+
+.review-avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  margin-right: 15px;
+}
+
+/* ==== Ready Focus Better==== */
+
+.focus-main{
+  text-align: center;
+  padding: 71px 150px 71px 150px;
+  margin-bottom: 93px;
+
+
+}
+
+.btn-focus{
+    background-color: #4e47ff;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+.focus-img{
+  border-radius: 48px;
+}
+
